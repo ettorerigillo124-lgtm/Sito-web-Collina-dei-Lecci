@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chambre &mdash; La Collina dei Lecci</title>
+<meta content="Chambre de la ferme La Collina dei Lecci avec galerie photo, &eacute;quipements et r&eacute;servation." name="description"/>
+<meta name="robots" content="noindex,follow"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Lora:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="../css/style.css?v=2.3" rel="stylesheet"/>
+<link href="../favicon.jpg" rel="icon" type="image/jpeg"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu principal</a>
+<!-- BEGIN:NAVBAR -->
+<header class="navbar" role="banner">
+<div class="navbar__inner">
+<a aria-label="La Collina dei Lecci — Accueil" class="navbar__brand" href="index.html"><img alt="La Collina dei Lecci" class="navbar__logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline';" src="../img/logo.png"/><span class="navbar__brand-text">La Collina dei Lecci</span></a>
+<button aria-controls="navbar-menu" aria-expanded="false" aria-label="Ouvrir le menu de navigation" class="navbar__hamburger" id="navbar-hamburger"><span></span><span></span><span></span></button>
+<div class="navbar__menu" id="navbar-menu">
+<nav aria-label="Navigation principale">
+<ul class="navbar__nav">
+<li><a class="navbar__link" href="index.html">Accueil</a></li>
+<li><a class="navbar__link navbar__link--active" href="chambres.html">Chambres</a></li>
+<li><a class="navbar__link" href="a-propos.html">À Propos</a></li>
+<li><a class="navbar__link" href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div aria-label="Choisir la langue" class="lang-switcher" id="lang-switcher" role="listbox">
+<button aria-expanded="false" aria-haspopup="listbox" class="lang-switcher__trigger" id="lang-trigger"><span class="lang-switcher__flag" style="font-size: 1.3em; line-height: 1;"><img alt="Français" height="20" src="../img/flags/fr.svg" style="vertical-align: middle; border-radius: 2px;" width="20"/></span><span class="lang-switcher__arrow"></span></button>
+<ul class="lang-switcher__dropdown" id="lang-dropdown"></ul>
+</div>
+</div>
+</div>
+</header>
+<!-- END:NAVBAR -->
+<main id="main-content">
+<section class="section" style="padding-top: var(--space-lg);">
+<div class="container">
+<a id="rp-back" class="rp-back" href="chambres.html">&larr; Retour aux chambres</a>
+<div class="room-page">
+<div class="room-page__gallery">
+<div class="room-page__stage" id="rp-stage">
+<button class="rp-nav rp-nav--prev" id="rp-prev" type="button" aria-label="Photo">&#8249;</button>
+<img class="room-page__main" id="rp-main-img" src="" alt="" width="1000" height="750" decoding="async">
+<button class="rp-nav rp-nav--next" id="rp-next" type="button" aria-label="Photo">&#8250;</button>
+<span class="room-page__counter" id="rp-counter"></span>
+</div>
+<div class="room-page__thumbs" id="rp-thumbs" role="list" aria-label="Photo"></div>
+</div>
+<div class="room-page__info">
+<h1 id="rp-title" class="room-page__title"></h1>
+<p id="rp-meta" class="room-detail__meta" style="margin-bottom: var(--space-md);"></p>
+<hr class="decorative-line" style="margin-left: 0;">
+<ul id="rp-amenities" class="room-detail__amenities" aria-label="&Eacute;quipements" style="margin-bottom: var(--space-md);"></ul>
+<div id="rp-booking" class="apt-cta-group" style="margin-top: var(--space-md);"></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BEGIN:FOOTER -->
+<footer class="footer" role="contentinfo">
+<div class="footer__grid">
+<div>
+<img alt="La Collina dei Lecci" class="footer__logo" src="../img/logo-light.png"/>
+<p class="footer__brand-name">La Collina dei Lecci</p>
+<p class="footer__tagline">Maison de campagne dans les collines du Chianti, entre Florence et Sienne.</p>
+</div>
+<div>
+<p class="footer__col-title">Navigation</p>
+<ul class="footer__nav">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="chambres.html">Chambres</a></li>
+<li><a href="a-propos.html">À Propos</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<p class="footer__col-title">Contact</p>
+<div class="footer__contact-item">
+<svg aria-hidden="true" class="footer__contact-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+<span>Località S. Donato, 21, 53037 San Gimignano SI</span>
+</div>
+<div class="footer__contact-item">
+<svg aria-hidden="true" class="footer__contact-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+<a href="tel:+390577941777">+39 0577 941 777</a>
+</div>
+<div class="footer__contact-item">
+<svg aria-hidden="true" class="footer__contact-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+<a href="mailto:info@lacollinadeilecci.com">info@lacollinadeilecci.com</a>
+</div>
+</div>
+<div>
+<p class="footer__col-title">Réserver</p>
+<p style="font-size: 14px; margin-bottom: 16px; opacity: 0.85;">Réservez votre séjour dans les collines du Chianti.</p>
+<a class="btn btn--secondary-dark btn--sm" href="https://www.booking.com/hotel/it/agriturismo-la-collina-dei-lecci.it.html?utm_source=sito&amp;utm_medium=cta_footer&amp;utm_content=booking" rel="noopener noreferrer" target="_blank">Réserver</a>
+</div>
+</div>
+<div class="footer__bottom">
+<p class="footer__copyright">© 2025 La Collina dei Lecci — Agriturismo · TVA IT00328940523</p>
+</div>
+</footer>
+<!-- END:FOOTER -->
+<script>window.ROOM_I18N={"roomWord": "Chambre", "photoWord": "Photo", "listHref": "chambres.html", "aptNames": {"sasso": "Il Sasso", "spigo": "Lo Spigo"}};
+window.ROOM_CONTENT={"sasso": {"meta": "Chambre double &middot; Rez-de-chauss&eacute;e &middot; Partie de l'appartement Il Sasso (location exclusive)", "amenities": "<li>3 chambres doubles avec t&eacute;l&eacute;vision (1 salle de bain priv&eacute;e &middot; 1 salle de bain commune avec douche)</li><li>S&eacute;jour avec canap&eacute;, table &agrave; manger et chemin&eacute;e</li><li>Cuisine &eacute;quip&eacute;e &mdash; r&eacute;frig&eacute;rateur, lave-vaisselle, machine &agrave; caf&eacute;, vaisselle compl&egrave;te</li><li>Pelouse avec table, chaises, barbecue et transats &middot; hamac dans le bosquet</li><li>Linge de lit, de bain et de cuisine inclus &middot; s&egrave;che-cheveux</li><li>Lave-linge &agrave; disposition</li><li>Animaux admis sur pr&eacute;avis (indiquer nombre, race et taille)</li><li>Location de l'appartement entier uniquement</li>", "booking": "<a class=\"btn btn--primary\" href=\"https://www.booking.com/hotel/it/agriturismo-la-collina-dei-lecci.it.html?utm_source=website&amp;utm_medium=cta_room&amp;utm_content=sasso\" target=\"_blank\" rel=\"noopener noreferrer\">R&eacute;server tout l'appartement</a>"}, "spigo": {"meta": "Chambre double &middot; Salle de bain priv&eacute;e avec douche &middot; &Eacute;tage", "amenities": "<li>Poutres apparentes</li><li>Chaque chambre&nbsp;: salle de bain priv&eacute;e avec douche et t&eacute;l&eacute;vision</li><li>Acc&egrave;s par le s&eacute;jour-cuisine commun</li><li>Espace ext&eacute;rieur avec table et barbecue</li><li>Linge de lit, de bain et de cuisine inclus &middot; s&egrave;che-cheveux</li><li>Lave-linge &agrave; disposition</li><li>Animaux admis sur pr&eacute;avis (indiquer nombre, race et taille)</li><li>R&eacute;servable en entier ou par chambre seule</li>", "booking": "<a class=\"btn btn--primary\" href=\"https://it.agriturismo.net/san-gimignano-1038/?utm_source=website&amp;utm_medium=cta_room&amp;utm_content=spigo-intero\" target=\"_blank\" rel=\"noopener noreferrer\">R&eacute;server tout l'appartement</a><a class=\"btn btn--secondary\" href=\"https://it.agriturismo.net/san-gimignano-1038/?utm_source=website&amp;utm_medium=cta_room&amp;utm_content=spigo-camera\" target=\"_blank\" rel=\"noopener noreferrer\">R&eacute;server cette chambre</a>"}};</script>
+<script src="../js/navbar.js"></script>
+<script src="../js/lang-switcher.js?v=4"></script>
+<script src="../js/fresh.js?v=2"></script>
+<script src="../js/rooms-data.js?v=2"></script>
+<script src="../js/room-detail.js?v=2"></script>
+</body>
+</html>
