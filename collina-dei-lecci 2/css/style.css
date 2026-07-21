@@ -442,11 +442,15 @@ blockquote {
   height: 90vh;
   min-height: 500px;
   max-height: 900px;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   align-items: flex-end;
   padding-bottom: var(--space-xl);
 }
+
+/* Contenitore sfondo hero: ritaglia l'immagine con lo zoom (Ken Burns)
+   senza tagliare il menu "Prenota" che scende sotto il pulsante. */
+.hero__bg { position: absolute; inset: 0; overflow: hidden; z-index: 0; border-radius: inherit; }
 
 .hero__image {
   position: absolute;
@@ -2852,7 +2856,7 @@ a.gallery-viewer__main { display: block; cursor: pointer; }
 /* Menu a tendina "Prenota" */
 .booking-dd { position: relative; display: inline-block; }
 .booking-dd__menu {
-  position: absolute; top: calc(100% + 6px); left: 0; z-index: 60;
+  position: absolute; top: calc(100% + 6px); left: 0; z-index: 200;
   background: var(--color-bg-card, #fff);
   border: 1px solid var(--color-border);
   border-radius: 10px;
